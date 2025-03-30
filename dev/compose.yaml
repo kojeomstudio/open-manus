@@ -1,0 +1,12 @@
+services:
+  openmanus:
+    image: kojeomstudio/open-manus-ks:v1
+    container_name: openmanus
+    volumes:
+      - openmanus_data:/app/OpenManus/workspace
+    tty: true
+    stdin_open: true
+
+volumes:
+  openmanus_data:
+    name: openmanus_data
