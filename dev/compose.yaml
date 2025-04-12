@@ -1,6 +1,6 @@
 services:
   openmanus:
-    image: kojeomstudio/open-manus-ks:v1
+    image: kojeomstudio/open-manus:v1
     container_name: openmanus
     volumes:
       - openmanus_data:/app/OpenManus/workspace
